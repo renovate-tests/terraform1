@@ -17,10 +17,6 @@
     ":automergeDisabled",
     ":maintainLockFilesWeekly"
   ],
-  "baseBranches": [
-    "develop",
-    "master"
-  ],
   "enabled": true,
   "masterIssueApproval": true,
   "masterIssueAutoclose": true
