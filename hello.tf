@@ -1,8 +1,8 @@
 terraform {
   required_providers {
-    docker = {
+    google = {
       source  = "terraform-providers/google"
-      version = "~> 2.0"
+      version = "~> 2.13"
     }
   }
 }
