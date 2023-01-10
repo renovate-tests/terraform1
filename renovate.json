@@ -1,23 +1,5 @@
 {
   "extends": [
-    "config:base",
-    "group:definitelyTyped",
-    "group:linters",
-    "group:test",
-    "group:monorepos",
-    "preview:buildkite",
-    "schedule:nonOfficeHours",
-    ":label(dependencies)",
-    ":timezone(Europe/Berlin)",
-    ":assignAndReview(weshare-umigmbh/middleware-devs)",
-    ":enableVulnerabilityAlertsWithLabel(vulnerability)",
-    ":pinVersions",
-    ":combinePatchMinorReleases",
-    ":rebaseStalePrs",
-    ":automergeDisabled",
-    ":maintainLockFilesWeekly"
-  ],
-  "enabled": true,
-  "masterIssueApproval": true,
-  "masterIssueAutoclose": true
+    "config:base"
+  ]
 }
